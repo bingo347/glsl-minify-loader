@@ -1,0 +1,25 @@
+{
+  "name": "glsl-minify-loader",
+  "version": "1.0.0",
+  "description": "webpack loader for optimizing and minifying GLSL",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo ok"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bingo347/glsl-minify-loader.git"
+  },
+  "keywords": [
+    "glsl",
+    "minify",
+    "loader",
+    "webpack-loader"
+  ],
+  "author": "Dmitriy Belyaev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bingo347/glsl-minify-loader/issues"
+  },
+  "homepage": "https://github.com/bingo347/glsl-minify-loader#readme"
+}

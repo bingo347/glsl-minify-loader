@@ -1,0 +1,1 @@
+# glsl-minify-loader
