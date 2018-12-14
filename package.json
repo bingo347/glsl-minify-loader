@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/bingo347/glsl-minify-loader/issues"
   },
-  "homepage": "https://github.com/bingo347/glsl-minify-loader#readme"
+  "homepage": "https://github.com/bingo347/glsl-minify-loader#readme",
+  "dependencies": {
+    "glsl-deparser": "^1.0.0",
+    "glsl-min-stream": "^1.0.0",
+    "glsl-parser": "^2.0.1",
+    "glsl-tokenizer": "^2.1.5"
+  }
 }
