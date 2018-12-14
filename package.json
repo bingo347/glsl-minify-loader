@@ -26,6 +26,7 @@
     "glsl-deparser": "^1.0.0",
     "glsl-min-stream": "^1.0.0",
     "glsl-parser": "^2.0.1",
-    "glsl-tokenizer": "^2.1.5"
+    "glsl-tokenizer": "^2.1.5",
+    "loader-utils": "^1.1.0"
   }
 }
