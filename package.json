@@ -4,7 +4,9 @@
   "description": "webpack loader for optimizing and minifying GLSL",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo ok"
+    "pretest": "webpack --config test/webpack.config.js",
+    "test": "node -p 'require(\"./test/out.js\")'",
+    "posttest": "rm test/out.js"
   },
   "repository": {
     "type": "git",
@@ -28,5 +30,9 @@
     "glsl-parser": "^2.0.1",
     "glsl-tokenizer": "^2.1.5",
     "loader-utils": "^1.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
   }
 }
