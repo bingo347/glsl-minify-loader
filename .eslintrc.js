@@ -1,7 +1,7 @@
 module.exports = {
     parserOptions: {
         ecmaVersion: 2017,
-        sourceType: 'module'
+        sourceType: 'script'
     },
     env: {
         node: true,
